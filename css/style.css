@@ -39,8 +39,52 @@
 /* set img star page -------- */
 .img_star{
     width: 85%;
-    height: 400px;
+    height: 300px;
     margin: auto;
     background-color: brown;
     border-radius: 15px;
+}
+
+/* set main struttura */
+.container{
+    width: 85%;
+    margin: auto;
+    height: 400px;
+    background-color: rgba(0, 255, 255, 0.507);
+}
+.col_left, .col_right{
+    width: 20%;
+    height: 100%;
+    background-color: cyan;
+    float: left;
+}
+.col_center{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(12, 92, 92);
+    float: left;
+}
+
+/* set colonna di sinistra */
+.img_col_left, .text_col_left{
+    height: 200px;
+    background-color: rgb(19, 201, 49);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* set colonna centrale */
+.img_center, .text_center{
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* set colonna destra */
+.img_col_right, .text_col_right{
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
 }
