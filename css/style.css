@@ -1,6 +1,38 @@
-/* reset page... */
+/* reset page...--------------------------------- */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;    
+}
+
+/* proprietà flex --------------------------------- */
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* sezione del logo e navbar---------------------- */
+.container_logo_nav{
+    width: 85%;
+    margin: auto;
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.5);
+
+}
+#logo{
+    width: 100px;
+    height: 70px;
+    background-color: red;
+    border: 1px solid red;
+}
+
+.navbar ul{
+    list-style: none;
+}
+.navbar li{
+    display: inline-block;
+    color: rgb(222, 212, 231);
+    text-transform: uppercase;
+    padding: 3px;
 }
